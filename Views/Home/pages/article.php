@@ -8,7 +8,7 @@ include "../Views/Home/partials/header.php";
     </div>
     <div class="main">
         <div class="container">
-lorem*100
+            
         </div>
     </div>
 </section>

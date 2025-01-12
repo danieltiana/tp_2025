@@ -1,17 +1,58 @@
-.carousel-caption{
-    top: 40%;
+.main {
+  background: linear-gradient(220deg, #000000, #000123, #020008);
 }
 
-.carousel-caption h3{
-    font-size: 4rem;
-    text-shadow: 3px 3px 7px #000000a3;
-    text-emphasis: double-circle open;
-    color: transparent;
-    background: linear-gradient(114deg, #1500ff, #ffc400);
-    background-clip: text;
+* {
+  color: #7d7d7d;
+}
+.carousel-caption {
+  top: 40%;
 }
 
-.carousel-caption p{
-    font-size: 2rem;
-    text-emphasis: dot open;
+.recomended {
+  background-color: #06091a;
+}
+
+.navbar {
+  background: linear-gradient(45deg, #08081ae6, #04060bed);
+}
+
+.nav-link{
+  font-size: 1rem;
+  color: #6e6e6b !important;
+
+}
+
+h2 {
+  color: transparent;
+  background: radial-gradient(#0120ff, #f99c29);
+  background-clip: text;
+}
+
+.extrait img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.style {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0.3;
+  background: linear-gradient(170deg, #1f003e, #000000);
+}
+
+.carousel-caption h3 {
+  font-size: 4rem;
+  text-shadow: 3px 3px 7px #000000a3;
+  text-emphasis: double-circle open;
+  color: transparent;
+  background: linear-gradient(114deg, #1500ff, #ffc400);
+  background-clip: text;
+}
+
+.carousel-caption p {
+  font-size: 2rem;
+  text-emphasis: dot open;
 }

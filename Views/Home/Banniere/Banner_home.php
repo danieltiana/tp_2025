@@ -1,6 +1,6 @@
 
 <div class="col-lg-6 col-md-8 mx-auto">
-          <h1 class="font-weight-light">Articles populaires</h1>
+          <h2 class="font-weight-light">Articles populaires</h2>
           <p class="lead text-muted">
             Suggestions recommandés
           </p>
@@ -9,7 +9,8 @@
 <div class="row mb-2">
     <div class="col-md-6">
         <div
-            class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            class="row g-0 bg-dark rounded rounded-3 overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="style"></div>
             <div class="col p-4 d-flex flex-column position-static">
                 <h3 class="mb-0 text-success">Le gaming</h3>
                 <p class="card-text mb-auto">
@@ -27,7 +28,8 @@
     </div>
     <div class="col-md-6">
         <div
-            class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            class="row g-0 bg-dark rounded rounded-3 overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="style"></div>
             <div class="col p-4 d-flex flex-column position-static">
                 <h3 class="mb-0 text-success">Le gaming</h3>
                 <p class="card-text mb-auto">

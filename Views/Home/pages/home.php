@@ -16,11 +16,17 @@ include "../Views/Home/partials/header.php";
             <div class="row">
             <?php include "../Views/Home/Contact.php"?>
             </div>
+            <div class="row">
+                <?php
+                include "../Views/Home/partials/footer.php";
+                ?>
+            </div>
 
         </div>
     </div>
 
 </section>
 <?php
+
 include "../Views/Home/partials/foot.php";
 ?>

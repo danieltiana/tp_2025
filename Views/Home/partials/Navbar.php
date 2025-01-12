@@ -1,8 +1,7 @@
 <nav
-    class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top"
->
+    class="navbar navbar-expand-md navbar-light sticky-top">
     <div class="container">
-        <a class="navbar-brand text-primary" href="/">Be-flixBlog</a>
+        <a class="navbar-brand text-warning" href="#">My blog</a>
         <button
             class="navbar-toggler d-lg-none"
             type="button"
@@ -10,68 +9,38 @@
             data-bs-target="#collapsibleNavId"
             aria-controls="collapsibleNavId"
             aria-expanded="false"
-            aria-label="Toggle navigation"
-        >
+            aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="collapsibleNavId">
             <ul class="navbar-nav me-auto mt-2 mt-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link" href="/" aria-current="page"
-                        >Accueil
-                        <span class="visually-hidden">(current)</span></a
-                    >
+                    <a class="nav-link active" href="/" aria-current="page">Accueil
+                        <span class="visually-hidden">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/articles">Blog</a>
+                    <a class="nav-link" href="/Articles">Articles</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/contact">contact</a>
+                    <a class="nav-link" href="/Articles">A propos</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/articles"></a>
-                </li>
-                <li class="nav-item dropdown bg-dark">
-                    <a
-                        class="nav-link dropdown-toggle bg-dark"
-                        href="#"
-                        id="dropdownId"
-                        data-bs-toggle="dropdown"
-                        aria-haspopup="true"
-                        aria-expanded="false"
-                        >Nos produits</a
-                    >
-                    <div
-                        class="dropdown-menu bg-dark"
-                        aria-labelledby="dropdownId"
-                    >
-                        <a class="dropdown-item text-light" href="/article"
-                            >Films</a
-                        >
-                        <a class="dropdown-item text-light" href="article"
-                            >Jeux</a
-                        >
-                        <a class="dropdown-item text-light" href="article"
-                            >Accessoires</a
-                        >
-                    </div>
-                </li>
+
             </ul>
-            <form class="d-flex my-2 my-lg-0" action="" method="get">
+            <form class="d-flex my-2 my-lg-0">
                 <input
-                    name = "article"
-                    class="form-control me-sm-2 bg-dark text-light"
+                    class="form-control me-sm-2 bg-transparent border-none"
                     type="text"
-                    placeholder="Rechercher un article"
-                />
+                    placeholder="identifiant" />
+                <input
+                    class="form-control me-sm-2 bg-transparent border-none"
+                    type="text"
+                    placeholder="mot de passe" />
                 <button
-                    class="btn btn-primary my-2 my-sm-0"
-                    type="submit"
-                >
-                Rechercher
+                    class="btn btn-outline-warning my-2 my-sm-0"
+                    type="submit">
+                    Connexion
                 </button>
             </form>
         </div>
     </div>
 </nav>
- 
