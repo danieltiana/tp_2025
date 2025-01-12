@@ -1,0 +1,17 @@
+.carousel-caption{
+    top: 40%;
+}
+
+.carousel-caption h3{
+    font-size: 4rem;
+    text-shadow: 3px 3px 7px #000000a3;
+    text-emphasis: double-circle open;
+    color: transparent;
+    background: linear-gradient(114deg, #1500ff, #ffc400);
+    background-clip: text;
+}
+
+.carousel-caption p{
+    font-size: 2rem;
+    text-emphasis: dot open;
+}

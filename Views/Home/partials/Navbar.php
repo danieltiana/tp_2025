@@ -1,5 +1,5 @@
 <nav
-    class="navbar navbar-expand-sm navbar-dark bg-dark"
+    class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top"
 >
     <div class="container">
         <a class="navbar-brand text-primary" href="/">Be-flixBlog</a>

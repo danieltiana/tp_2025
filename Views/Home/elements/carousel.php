@@ -47,13 +47,13 @@
                 class="w-100 d-block"
                 alt="Third slide"
             />
-            <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-caption d-none d-md-block" >
                 <h3>Ici de loaomd </h3>
                 <p>fkjafklj;j;rf fplaf;lbmb kf;lbrfbovaf;lc;l </p>
             </div>
         </div>
     </div>
-    <button
+    <!-- <button
         class="carousel-control-prev"
         type="button"
         data-bs-target="#carouselId"
@@ -70,5 +70,5 @@
     >
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
-    </button>
+    </button> -->
 </div>
