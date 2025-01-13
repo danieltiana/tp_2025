@@ -81,7 +81,6 @@ body {
 }
 
 .navbar .form-control {
-  padding: 0.75rem 1rem;
   border-width: 0;
   border-radius: 0;
 }
@@ -111,6 +110,7 @@ body {
 
 .navbar {
   background: linear-gradient(45deg, #08081ae6, #04060bed);
+  z-index: 1000;
 }
 
 .nav-link{

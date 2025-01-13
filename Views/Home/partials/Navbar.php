@@ -28,15 +28,15 @@
             </ul>
             <form class="d-flex my-2 my-lg-0">
                 <input
-                    class="form-control me-sm-2 bg-transparent border-none"
+                    class="form-control me-sm-2 bg-transparent border-bottom text-secondary border-secondary border-none"
                     type="text"
                     placeholder="identifiant" />
                 <input
-                    class="form-control me-sm-2 bg-transparent border-none"
+                    class="form-control me-sm-2 bg-transparent border-bottom text-secondary border-secondary border-none"
                     type="text"
                     placeholder="mot de passe" />
                 <button
-                    class="btn btn-outline-warning my-2 my-sm-0"
+                    class="btn btn-outline-warning my-2 btn-sm my-sm-0"
                     type="submit">
                     Connexion
                 </button>

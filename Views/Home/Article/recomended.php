@@ -1,7 +1,7 @@
 <div class="col-lg-6 col-md-8 mx-auto">
     <h2 class="font-weight-light">Articles populaires</h2>
     <p class="lead text-muted">
-        Suggestions recommandés
+        Suggestions <span class="bg-primary text-light">recommandés</span>
     </p>
 </div>
 
