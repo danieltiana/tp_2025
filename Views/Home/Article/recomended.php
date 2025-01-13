@@ -1,10 +1,9 @@
-
 <div class="col-lg-6 col-md-8 mx-auto">
-          <h2 class="font-weight-light">Articles populaires</h2>
-          <p class="lead text-muted">
-            Suggestions recommandés
-          </p>
-        </div>
+    <h2 class="font-weight-light">Articles populaires</h2>
+    <p class="lead text-muted">
+        Suggestions recommandés
+    </p>
+</div>
 
 <div class="row mb-2">
     <div class="col-md-6">
@@ -17,11 +16,11 @@
                     Voir les derniers nouvelles dans l'univers du gaming.
                     Le top de jeux modiales, et les animations
                 </p>
-                <a href="articles?type=film " class="stretched-link btn btn-dark">Voir details</a>
+                <a href="articles " class="stretched-link btn btn-warning">Voir details</a>
             </div>
             <div class="col-auto d-none d-lg-block shadow">
                 <div class="feature-img">
-                    <img src="Assets/images/slide/312123.jpg" class="bd-placeholder-img" alt="" width="200" height="250">
+                    <img src="/images/img (1).jpg" class="bd-placeholder-img" alt="" width="200" height="250">
                 </div>
             </div>
         </div>
@@ -36,11 +35,11 @@
                     Voir les derniers nouvelles dans l'univers du gaming.
                     Le top de jeux modiales, et les animations
                 </p>
-                <a href="articles?type=film " class="stretched-link btn btn-dark">Voir details</a>
+                <a href="articles?type=film " class="stretched-link btn btn-warning">Voir details</a>
             </div>
             <div class="col-auto d-none d-lg-block shadow">
                 <div class="feature-img">
-                    <img src="Assets/images/slide/312123.jpg" class="bd-placeholder-img" alt="" width="200" height="250">
+                    <img src="/images/img (1).jpeg" class="bd-placeholder-img" alt="" width="200" height="250">
                 </div>
             </div>
         </div>

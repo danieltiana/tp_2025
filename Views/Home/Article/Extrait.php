@@ -45,7 +45,7 @@
                 <li><a href="">Date: 12/05/200222</a></li>
                 <li><a href="">10 commentainer</a></li>
                 <small class="btn btn-primary mt-2 mb-2 btn-sm">Commenter</small>
-                <a href="" class="btn btn-outline-primary btn-sm">Voir la publicaiton</a>
+                <a href="" class="btn btn-outline-warning btn-sm">Voir la publicaiton</a>
             </ul>
 
             <hr>
@@ -69,7 +69,7 @@
     <div class="col-md-4"></div>
     <div class="col-md-4">
         <a href="articles" class="btn text-ceenter">
-            <h2>
+            <h2 class="">
                    Voir tous dans article
             </h2>
          
