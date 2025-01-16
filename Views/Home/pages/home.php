@@ -1,8 +1,12 @@
 <?php
+
+
 include "../Views/Home/partials/header.php";
+
+
 ?>
 <section>
-    <?php   include "../Views/Home/partials/Navbar.php" ?>
+    <?php include "../Views/Home/partials/Navbar.php" ?>
     <div class="sidebar">
 
     </div>
@@ -14,7 +18,7 @@ include "../Views/Home/partials/header.php";
             include "../Views/Home/Article/Extrait.php";
             ?>
             <div class="row">
-            <?php include "../Views/Home/Contact.php"?>
+                <?php include "../Views/Home/Contact.php" ?>
             </div>
             <div class="row">
                 <?php
