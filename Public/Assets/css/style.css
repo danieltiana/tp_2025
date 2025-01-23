@@ -17,22 +17,43 @@ body {
   object-fit: cover;
 }
 
+
+
 .sidebar {
   background: linear-gradient(350deg, #000001, #07001c);
   position: fixed;
   top: 0;
   bottom: 0;
-  right: 0;
   z-index: 100;
-  padding: 48px 0 0;
   box-shadow: inset -1px 0 0 rgba(0, 0, 0, 0.1);
+}
+
+.sidebar:not(#admins){
+  right: 0;
+  padding: 48px 0 0;
+}
+
+#admins{
+left: 0;
+width: 250px;
+}
+
+
+@media(min-width: 767px){
+  .admin-elements{
+    margin-left: 250px;
+  }
 }
 
 @media (max-width: 767.98px) {
   .sidebar {
     top: 5rem;
   }
+  .container{
+    max-width: 100% ;
 }
+}
+
 
 .sidebar-sticky {
   position: relative;

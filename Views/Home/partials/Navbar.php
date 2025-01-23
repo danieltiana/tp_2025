@@ -27,9 +27,9 @@
                 <input
                     class="form-control me-sm-2 bg-transparent border-bottom text-secondary border-secondary border-none"
                     type="text" placeholder="mot de passe" />
-                <button class="btn btn-outline-warning my-2 btn-sm my-sm-0" type="submit">
+                <a href="/admin" class="btn btn-outline-warning my-2 btn-sm my-sm-0" type="submit">
                     Connexion
-                </button>
+                </a>
             </form>
         </div>
     </div>

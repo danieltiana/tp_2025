@@ -1,12 +1,18 @@
 {
-  "name": "vendor/nom",
-  "require": {
-    "altorouter/altorouter": "^2.0"
-  },
-  "autoload": {
-    "psr-4": {
-      "App\\Controller\\": "App\\Controller\\",
-      "App\\Model\\": "App\\Model\\"
+    "name": "vendor/blog",
+    "authors": [
+        {
+            "name": "Daniel Tiana",
+            "email": "daniieltiana@gmail.com"
+        }
+    ],
+    "require": {
+        "altorouter/altorouter": "^2.0"
+    },
+    "autoload":{
+        "psr-4":{
+            "App\\Controller\\": "App\\Controller\\",
+            "App\\Model\\": "App\\Model\\"
+        }
     }
-  }
 }
